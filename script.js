@@ -8,7 +8,7 @@ function fun(e) {
   e.preventDefault();
 
   if (name.value === "" || age.value === "") {
-    alert("Please enter valid details.");
+    alert("Please enter valid details");
     return;
   }
 
